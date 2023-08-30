@@ -1,0 +1,33 @@
+:root {
+  --color-principal: #008d13;
+  --bg-oscuro: #1b1b1b;
+  --colorPrincipalOscuro: #002f5c;
+  --colorClaro: azure;
+  --colorClaroCard: #fff;
+}
+
+.bg-oscuro {background-color:var(--bg-oscuro)}
+
+.btn-primario {background-color:var(--color-principal);
+color:var(--colorClaro)}
+.btn-primario:hover {background-color: #006d0f;
+color:var(--colorClaro)}
+
+.activo {background-color:var(--color-principal);}
+
+.btn-outline-primario {border-color: var(--color-principal);
+color:var(--color-principal)}
+.btn-outline-primario:hover {background-color:var(--color-principal);
+color:var(--colorClaro)}
+
+.text-body-secondary:hover {color: var(--color-principal)!important}
+
+.link-cuerpo-emphasis {color:#ffffff}
+.link-cuerpo-emphasis:hover {color:rgb(202, 202, 202)}
+
+.colorclarocard {background-color: var(--colorClaroCard);}
+
+/* Jota Playground */
+.text-body-jota {color:#ffffffb9;
+  font-size:14px;}
+  .text-body-jota:hover {color:#ff0404}
